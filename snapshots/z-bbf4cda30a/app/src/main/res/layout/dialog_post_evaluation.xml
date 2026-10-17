@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_gallery_panel"
+    android:orientation="vertical"
+    android:padding="18dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.08"
+        android:text="POST-EVALUATION"
+        android:textColor="@color/cell"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Teach BACTERIALSCOPE"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imgEvaluation"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_image_frame"
+        android:contentDescription="Captured image for post-evaluation"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/txtEvaluationPrediction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Model predicted: —"
+        android:textColor="@color/mist"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Choose the correct label for this cropped object. The app stores its visual pattern and continues through up to six detected objects."
+        android:textColor="@color/muted"
+        android:textSize="11sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_image_frame"
+        android:padding="8dp">
+
+        <RadioGroup
+            android:id="@+id/evaluationChoices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSkipEvaluation"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_dark"
+            android:minHeight="0dp"
+            android:text="Skip"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnTeachApp"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_primary"
+            android:minHeight="0dp"
+            android:text="Teach App"
+            android:textAllCaps="false"
+            android:textColor="@color/ink"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BACTERIALSCOPE</string>
+    <string name="camera_preview">Live camera preview</string>
+    <string name="captured_scan">Latest captured bacterial scan</string>
+    <string name="gallery_image">Selected bacterial scan</string>
+</resources>

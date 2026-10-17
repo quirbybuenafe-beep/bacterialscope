@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ink">#06101F</color>
+    <color name="lab_surface">#0D1D31</color>
+    <color name="plasma">#55DDF6</color>
+    <color name="cell">#C6F7FF</color>
+    <color name="violet">#A77BFF</color>
+    <color name="mist">#F1FAFF</color>
+    <color name="muted">#9DB5C8</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>
